@@ -1,0 +1,39 @@
+# Core
+python-dotenv>=1.0.1
+pydantic>=2.7.4
+
+# PDF & Text Processing
+pypdf>=4.2.0
+tiktoken>=0.7.0
+
+# LangChain + LLMs
+langchain>=0.2.12
+langchain-core>=0.2.34
+langchain-community>=0.2.6
+langchain-openai>=0.2.1
+openai>=1.35.7
+
+# Embeddings & Vectorstore
+faiss-cpu>=1.8.0
+numpy>=1.26.4
+
+# API
+fastapi>=0.111.0
+uvicorn>=0.30.1
+
+# UI
+streamlit>=1.36.0
+
+# Monitoring + Drift
+evidently>=0.4.33
+prometheus-fastapi-instrumentator>=6.1.0
+
+# RAG Evaluation
+ragas>=0.1.6
+evaluate>=0.4.1
+
+# Utils
+requests>=2.32.3
+
+# Testing
+pytest>=8.2.2

@@ -7,7 +7,7 @@ RAG and vector indexing.
 Author: Sai Ram Bikki
 """
 
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from typing import List
 
 class Chunker:
