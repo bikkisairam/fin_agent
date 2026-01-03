@@ -4,6 +4,9 @@ Summarizer Tool
 Summarizes long financial policy text into clear, structured bullet points.
 Used by PolicyAgent and ReasoningAgent.
 """
+from src.config.env_loader import load_env
+load_env()
+
 
 from langchain_openai import ChatOpenAI
 

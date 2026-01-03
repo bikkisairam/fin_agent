@@ -4,6 +4,8 @@ Decision Tool
 Takes reasoning output and produces a structured decision
 (approve, deny, escalate) with justification.
 """
+from src.config.env_loader import load_env
+load_env()
 
 from langchain_openai import ChatOpenAI
 

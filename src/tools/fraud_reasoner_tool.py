@@ -4,6 +4,8 @@ Fraud Reasoner Tool
 Performs analytical reasoning using retrieved policy evidence.
 Simulates a fraud investigation analyst.
 """
+from src.config.env_loader import load_env
+load_env()
 
 from langchain_openai import ChatOpenAI
 
